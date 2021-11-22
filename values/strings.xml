@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">login</string>
+    <string name="str_login">LOG IN</string>
+    <string name="str_register">SIGN UP</string>
+    <string name="str_email">Email</string>
+    <string name="str_password">Password</string>
+    <string name="str_nickname">Nickname</string>
+    <string name="str_exit">Exit</string>
+    <string name="str_menu">Menu</string>
+    <string name="str_playPVP">Play PVP</string>
+    <string name="str_playAI">Play VS AI</string>
+    <string name="str_waitingPlayer">Waiting Oponent...</string>
+</resources>
