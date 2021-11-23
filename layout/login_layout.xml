@@ -64,7 +64,7 @@
             android:maxLength="20"
             android:textAlignment="center"
             android:textColor="@color/gray"
-            android:textColorHint="@color/gray" />
+            android:textColorHint="@color/gray"/>
 
         <Button
             android:id="@+id/btnLogin"

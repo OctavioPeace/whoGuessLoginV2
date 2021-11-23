@@ -3,50 +3,60 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bgRoomwait"
+    android:background="@drawable/bg_waitroom"
     tools:context=".WaitRoomConfig">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <TextView android:id="@+id/txtNickname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:text="Octopus2000"
+            android:text=" Octopus2000"
             android:textColor="@color/greenNN"
             android:textSize="18dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:drawableTint="@color/gray"
+            android:drawableLeft="@drawable/ic_user"/>
+
         <TextView android:id="@+id/txtWins"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:text="8 Wins"
+            android:text="8 W"
             android:textColor="@color/yellowWin"
             android:textSize="18dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:drawableTint="@color/yellowWin"
+            android:drawableLeft="@drawable/ic_wins"/>
 
         <TextView android:id="@+id/txtLoses"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:text="5 Loses"
+            android:text="5 L"
             android:textColor="@color/redLose"
             android:textSize="18dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:drawableTint="@color/redLose"
+            android:drawableLeft="@drawable/ic_loses"/>
 
         <TextView android:id="@+id/txtScore"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:text="140 Points"
             android:textColor="@color/blueScore"
             android:textSize="18dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:drawableTint="@color/blueScore"
+            android:drawableLeft="@drawable/ic_points"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -71,14 +81,15 @@
             android:max="100"
             android:progress="100"
             android:rotation="-90"
-            android:indeterminate="true"/>
+            android:indeterminate="false"
+            android:background="@drawable/circle"/>
 
-        <TextView
+        <TextView android:id="@+id/txt_Crono"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="00:00"
+            android:text="00:00:00"
             android:textSize="20dp"
-            android:textColor="@color/gray"/>
+            android:textColor="@color/gradient_start"/>
         <Button
             android:id="@+id/btnExit"
             android:layout_width="match_parent"
