@@ -9,5 +9,6 @@
     <string name="str_menu">Menu</string>
     <string name="str_playPVP">Play PVP</string>
     <string name="str_playAI">Play VS AI</string>
+    <string name="str_help">Help</string>
     <string name="str_waitingPlayer">Waiting Oponent...</string>
 </resources>

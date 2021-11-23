@@ -13,19 +13,21 @@
         android:orientation="vertical">
 
         <TextView android:id="@+id/txtRegister"
-            android:layout_width="match_parent"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="@string/str_register"
             android:textAlignment="center"
             android:textSize="30dp"
             android:textStyle="bold"
-            android:textColor="@color/gray"/>
+            android:textColor="@color/gradient_start"
+            android:drawableEnd="@drawable/ic_signup"
+            android:drawableTint="@color/gradient_start" />
 
         <ImageView
-            android:layout_width="386dp"
-            android:layout_height="253dp"
+            android:layout_width="390dp"
+            android:layout_height="250dp"
             android:layout_marginTop="20dp"
-            android:src="@drawable/logo2" />
+            android:src="@drawable/who_guess_title" />
 
         <EditText
             android:id="@+id/txtRegNickname"
@@ -39,7 +41,9 @@
             android:textAlignment="center"
             android:textColorHint="@color/gray"
             android:textColor="@color/gray"
-            android:backgroundTint="@color/gray"/>
+            android:backgroundTint="@color/gradient_start"
+            android:drawableEnd="@drawable/ic_user"
+            android:drawableTint="@color/gradient_start"/>
 
         <EditText
             android:id="@+id/txtRegEmail"
@@ -53,7 +57,9 @@
             android:textAlignment="center"
             android:textColorHint="@color/gray"
             android:textColor="@color/gray"
-            android:backgroundTint="@color/gray"/>
+            android:backgroundTint="@color/gradient_start"
+            android:drawableEnd="@drawable/ic_email"
+            android:drawableTint="@color/gradient_start"/>
 
         <EditText
             android:id="@+id/txtRegPassword"
@@ -68,7 +74,9 @@
             android:maxLength="20"
             android:textColorHint="@color/gray"
             android:textColor="@color/gray"
-            android:backgroundTint="@color/gray"/>
+            android:backgroundTint="@color/gradient_start"
+            android:drawableEnd="@drawable/ic_password"
+            android:drawableTint="@color/gradient_start" />
 
         <Button
             android:id="@+id/btnRegister"

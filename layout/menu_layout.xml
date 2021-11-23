@@ -3,50 +3,60 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@drawable/bg_menu"
     tools:context=".MenuConfig">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <TextView android:id="@+id/txtNickname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:text="Octopus2000"
+            android:text=" Octopus2000"
             android:textColor="@color/greenNN"
             android:textSize="18dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:drawableTint="@color/gray"
+            android:drawableLeft="@drawable/ic_user"/>
+
         <TextView android:id="@+id/txtWins"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:text="8 Wins"
+            android:text="8 W"
             android:textColor="@color/yellowWin"
             android:textSize="18dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:drawableTint="@color/yellowWin"
+            android:drawableLeft="@drawable/ic_wins"/>
 
         <TextView android:id="@+id/txtLoses"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:text="5 Loses"
+            android:text="5 L"
             android:textColor="@color/redLose"
             android:textSize="18dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:drawableTint="@color/redLose"
+            android:drawableLeft="@drawable/ic_loses"/>
 
         <TextView android:id="@+id/txtScore"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:text="140 Points"
             android:textColor="@color/blueScore"
             android:textSize="18dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:drawableTint="@color/blueScore"
+            android:drawableLeft="@drawable/ic_points"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -56,50 +66,54 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp">
 
-        <TextView android:id="@+id/txtMenu"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="30dp"
-            android:text="@string/str_menu"
-            android:textAlignment="center"
-            android:textSize="30dp"
-            android:textStyle="bold"
-            android:textColor="@color/gray"/>
-
         <ImageView
-            android:layout_width="386dp"
-            android:layout_height="253dp"
+            android:layout_width="390dp"
+            android:layout_height="200dp"
             android:layout_marginTop="20dp"
-            android:src="@drawable/logo2" />
+            android:src="@drawable/who_guess_title" />
 
         <Button
             android:id="@+id/btnPlayPVP"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="80dp"
             android:layout_marginRight="60dp"
             android:layout_marginLeft="60dp"
             android:layout_marginTop="30dp"
             android:text="@string/str_playPVP"
-            android:background="@drawable/button_rounded" />
+            android:textSize="25dp"
+            android:background="@drawable/button_rounded2" />
 
         <Button
             android:id="@+id/btnPlayAI"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="80dp"
             android:layout_marginRight="60dp"
             android:layout_marginLeft="60dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:text="@string/str_playAI"
-            android:background="@drawable/button_rounded"/>
+            android:textSize="25dp"
+            android:background="@drawable/button_rounded2"/>
+
+        <Button
+            android:id="@+id/btnHelp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/str_help"
+            android:textSize="25dp"
+            android:background="@drawable/button_rounded2"/>
 
         <Button
             android:id="@+id/btnExit"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="80dp"
             android:layout_marginRight="60dp"
             android:layout_marginLeft="60dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:text="@string/str_exit"
-            android:background="@drawable/button_rounded"/>
+            android:textSize="25dp"
+            android:background="@drawable/button_rounded2"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
