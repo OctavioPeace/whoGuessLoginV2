@@ -15,10 +15,14 @@ class MenuConfig : AppCompatActivity(){
 
         binding.btnExit.setOnClickListener { finish() }
 
-        binding.btnPlayPVP.setOnClickListener() {
-            val intent = Intent(applicationContext, WaitRoomConfig::class.java)
+        binding.btnPlayPVP.setOnClickListener {
+            val intent = Intent(applicationContext, RoomConfig::class.java)
             startActivity(intent)
         }
 
+        binding.btnHelp.setOnClickListener {
+            val intent = Intent(applicationContext, HelpConfig::class.java)
+            startActivity(intent)
+        }
     }
 }

@@ -45,6 +45,7 @@
             android:drawableTint="@color/gradient_start"
             android:hint="@string/str_email"
             android:inputType="textEmailAddress"
+            android:maxLength="50"
             android:textAlignment="center"
             android:textColor="@color/gray"
             android:textColorHint="@color/gray" />

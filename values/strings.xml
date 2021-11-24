@@ -6,9 +6,14 @@
     <string name="str_password">Password</string>
     <string name="str_nickname">Nickname</string>
     <string name="str_exit">Exit</string>
+    <string name="str_back">Back</string>
     <string name="str_menu">Menu</string>
     <string name="str_playPVP">Play PVP</string>
     <string name="str_playAI">Play VS AI</string>
     <string name="str_help">Help</string>
     <string name="str_waitingPlayer">Waiting Oponent...</string>
+    <string name="str_roomID">Room ID:</string>
+    <string name="str_roomID2">Insert the room ID:</string>
+    <string name="str_enterRoom">Enter</string>
+    <string name="str_instructions">Instructions</string>
 </resources>
