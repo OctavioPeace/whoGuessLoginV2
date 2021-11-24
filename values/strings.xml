@@ -16,4 +16,5 @@
     <string name="str_roomID2">Insert the room ID:</string>
     <string name="str_enterRoom">Enter</string>
     <string name="str_instructions">Instructions</string>
+    <string name="str_play">Play Game</string>
 </resources>
