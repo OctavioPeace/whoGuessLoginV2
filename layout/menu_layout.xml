@@ -66,10 +66,19 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp">
 
+        <TextView android:id="@+id/txtViewPlayers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:drawableTint="@color/greenNN"
+            android:drawableEnd="@drawable/ic_players"/>
+
         <ImageView
             android:layout_width="390dp"
             android:layout_height="200dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:src="@drawable/who_guess_title" />
 
         <Button
