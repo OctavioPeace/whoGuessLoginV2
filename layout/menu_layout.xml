@@ -67,10 +67,14 @@
         tools:layout_editor_absoluteY="0dp">
 
         <TextView android:id="@+id/txtViewPlayers"
-            android:layout_width="match_parent"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
+            android:layout_marginLeft="150dp"
             android:layout_marginTop="20dp"
+            android:textColor="@color/greenNN"
+            android:text="5454"
+            android:textSize="25dp"
             android:textStyle="bold"
             android:drawableTint="@color/greenNN"
             android:drawableEnd="@drawable/ic_players"/>
