@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Guess Who</string>
+    <string name="str_login">LOG IN</string>
+    <string name="str_register">SIGN UP</string>
+    <string name="str_email">Email</string>
+    <string name="str_password">Password</string>
+    <string name="str_nickname">Nickname</string>
+    <string name="str_exit">Exit</string>
+    <string name="str_back">Back</string>
+    <string name="str_enter">Enter</string>
+    <string name="str_enterroom">Enter Room</string>
+    <string name="str_menu">Menu</string>
+    <string name="str_playPVP">Play PVP</string>
+    <string name="str_playAI">Play VS AI</string>
+    <string name="str_help">Help</string>
+    <string name="str_waitingPlayer">Waiting Oponent...</string>
+    <string name="str_roomID">Room ID:</string>
+    <string name="str_roomID2">Insert the room ID:</string>
+    <string name="str_enterRoom">Enter</string>
+    <string name="str_instructions">Instructions</string>
+    <string name="str_play">Play Game</string>
+    <string name="str_instructionsBody">P VS P: El jugador anfitrion deberá acceder a la opcion de Play PVP y automaticamente se generará un código, este deberá ser introducido por el otro jugador, una vez introducido los podran acceder a la partida, observarás un tablero con 24 cantantes, en la esquina superior izquierda observaras el personaje que se te fue asignado. Al inferior de tu personaje observaras una serie de botones para tratar de adinivar alguna caracteristica del personaje del contrincante, asi mismo y dependiendo de la respuesta del contrincante deberás descartar a los personajes del tablero clickeando y descartando a cada personaje que no concuerde con la descripcion solicitada. Tambien se encuentra el boton de chat para poder intercambiar mensajes con el opontente. En la parte inferior del tablero encontrarás la opcion para abandonar la partida o intentar adivinar el personaje del contrincante. El boton de pasar consiste en el tiempo que tienes para voltear a los personajes del tablera y pasar el turno al oponente
+
+P VS IA: El modo Jugador contra IA trabaja de forma similar al modo PVP en este simplemente tienes que enviar solicitudes de caracteristicas y en base a ellas ir descartando a los personajes que no concuerden con las caracteristicas hasta adivinar al personaje del IA, en este caso no se te asignará un personaje a tí</string>
+</resources>
